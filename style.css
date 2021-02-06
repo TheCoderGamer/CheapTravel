@@ -6,17 +6,10 @@ body {
     background-color: #D8E2DC;
 }
 
-
-
 .logo{
     width: 5%;
     height: auto;
     vertical-align: middle;
-}
-
-header img{
-    width: 2%;
-    height: auto;  
 }
 
 header,nav {
@@ -24,7 +17,7 @@ header,nav {
     border: 2px solid #4589c0b6;
 }
 
-header form {
+header form { 
     font-size: 100%;
     float: right;
     padding: 1%;
