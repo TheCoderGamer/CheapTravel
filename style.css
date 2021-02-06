@@ -12,16 +12,33 @@ body {
     vertical-align: middle;
 }
 
+.redesSociales {
+    position: relative;
+    left: 65%;
+    top: 17px;
+    /* float: right; */
+    /* float:right;
+    margin: 0 0 10px 10px; */
+
+    /* margin-top: 3%; */
+    border: solid black;
+    width: 2%;
+    height: auto;
+
+}
+.buscador {
+    font-size: 100%;
+    float: right;
+    /* padding-top: 0.5%;
+    padding-right: 0.5%; */
+    border: solid black;
+}
+
 header,nav {
     background-color: #d6d2d1; 
     border: 2px solid #4589c0b6;
 }
 
-header form { 
-    font-size: 100%;
-    float: right;
-    padding: 1%;
-}
 
 header a{
     font-size: 200%;
@@ -77,15 +94,17 @@ section h1 {
 table {
     position: relative;
     top: none;
-    /* left: 4%; */
+    left: 4%;
     margin-top: 4%;
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
+    border-spacing: 20px;
 }
 
-td, tr {
+td {
     border: 1px solid black;
     text-align: center;
+    margin: 20%;
 }
 
 article h2 {
