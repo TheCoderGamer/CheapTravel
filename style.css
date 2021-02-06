@@ -6,36 +6,17 @@ body {
     background-color: #D8E2DC;
 }
 
-.formaDesplazamiento{
-    float: left;
-    position: relative;
-    width: 75%;
-    height: 75%;
-}
 
-.logo {
-    float: left;
-    /* margin-top: 0.1%;
-    margin-left: 0.3%;
-    margin-right: 0.8%; */
-    /* max-width: 3%; */
-}
-.logo img{
-    width: 6%;
-    height: 6%;
-    /* min-width: 5%; */
-    
-}
 
-header {
-    
-    font-size: 200%;
-    color: #314e52;
-    line-height: 100%;
+.logo{
+    width: 5%;
+    height: auto;
+    vertical-align: middle;
 }
 
 header img{
-    margin-top: 1%;
+    width: 2%;
+    height: auto;  
 }
 
 header,nav {
@@ -44,15 +25,18 @@ header,nav {
 }
 
 header form {
-    font-size: 65%;
+    font-size: 100%;
     float: right;
-    /* padding: 1%; */
+    padding: 1%;
 }
 
 header a{
-    text-align: right;
-    font-size: 30px;
+    font-size: 200%;
+    color: #314e52;
+    /* line-height: 200%; */
+    font-size: 200%;
     margin-left: 10px;
+    vertical-align: middle;
 }
 
 nav {
@@ -76,21 +60,21 @@ nav a{
 }
 
 .fotoinicial {
-    width: 70%;
+    width: 50%;
     height: 30%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .fotoinicio {
     position: relative;
-    text-align: center;
+    left: 5%;
 }
 
 section h1 {
     position: absolute;
-    font-size: 4vw;
+    font-size: 3vw;
     top: 40%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
     color: white;
 }
@@ -100,19 +84,20 @@ section h1 {
 table {
     position: relative;
     top: none;
-    left: 4%;
+    /* left: 4%; */
     margin-top: 4%;
+    height: 40%;
+    width: 40%;
 }
 
-td {
+td, tr {
     border: 1px solid black;
     text-align: center;
-
 }
 
-td h2 {
+article h2 {
     position: relative;
-    left: 25%;
+    left: none;
     top: none;
 }
 
@@ -120,6 +105,8 @@ aside {
     background-color: gray;
     float: right;
     position: absolute;
+    width: 20%;
+    height: 20%;
     bottom: 55%;
     left: 84%;
 }
