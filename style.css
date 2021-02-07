@@ -13,18 +13,19 @@ body {
 }
 
 .redesSociales {
-    position: relative;
-    left: 65%;
-    top: 17px;
-    /* float: right; */
+    /* position: absolute;
+    left: 80%;
+    top: 26px; */
+    float: right;
+    /* float: none; */
     /* float:right;
     margin: 0 0 10px 10px; */
 
     /* margin-top: 3%; */
     border: solid black;
-    width: 2%;
-    height: auto;
-
+    width: 17px;
+    height: 17px;
+    
 }
 .buscador {
     font-size: 100%;
@@ -56,6 +57,15 @@ nav {
     margin-top: 1%;
 }
 
+aside {
+    background-color: gray;
+    float: right;
+    position: relative;
+    width: 25%;
+    height: 20%;
+    top: 30px;
+}
+
 nav a{
     margin-top: 3%;
     margin-left: 0.5%;
@@ -70,21 +80,21 @@ nav a{
 }
 
 .fotoinicial {
-    width: 50%;
+    width: 65%;
     height: 30%;
     margin-top: 3%;
 }
 
 .fotoinicio {
     position: relative;
-    left: 5%;
+    margin-left: 64px;
 }
 
 section h1 {
     position: absolute;
     font-size: 3vw;
     top: 40%;
-    left: 25%;
+    left: 33%;
     transform: translate(-50%, -50%);
     color: white;
 }
@@ -94,11 +104,11 @@ section h1 {
 table {
     position: relative;
     top: none;
-    left: 4%;
     margin-top: 4%;
-    height: 50%;
-    width: 50%;
-    border-spacing: 20px;
+    margin-left: 44px;
+    height: 64%;
+    width: 64%;
+    /* border-spacing: 20px; */
 }
 
 td {
@@ -107,21 +117,16 @@ td {
     margin: 20%;
 }
 
+table,td,tr {
+    border-spacing: 15px;
+}
+
 article h2 {
     position: relative;
     left: none;
     top: none;
 }
 
-aside {
-    background-color: gray;
-    float: right;
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    bottom: 55%;
-    left: 84%;
-}
 
 footer {
     background-color: gray;
