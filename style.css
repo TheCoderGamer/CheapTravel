@@ -27,12 +27,38 @@ body {
     height: 17px;
     
 }
+
+aside p {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #d6d2d1;
+}
+
+aside a {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #d6d2d1;
+}
+
+aside form {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+    background-color: #d6d2d1;
+}
+
+.asidegrande {
+    font-size: 25px;
+}
+
+.redesSociales2 {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
 .buscador {
     font-size: 100%;
     float: right;
-    /* padding-top: 0.5%;
-    padding-right: 0.5%; */
-    border: solid black;
 }
 
 header,nav {
@@ -58,12 +84,13 @@ nav {
 }
 
 aside {
-    background-color: gray;
+    background-color: #d6d2d1;
+    border: 2px solid #4589c0b6;
     float: right;
     position: relative;
     width: 25%;
     height: 20%;
-    top: 30px;
+    top: 350px;
 }
 
 nav a{
@@ -108,13 +135,14 @@ table {
     margin-left: 44px;
     height: 64%;
     width: 64%;
-    /* border-spacing: 20px; */
 }
 
 td {
-    border: 1px solid black;
+    font-size: 20px;
     text-align: center;
     margin: 20%;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
 }
 
 table,td,tr {
@@ -127,7 +155,14 @@ article h2 {
     top: none;
 }
 
+.footer {
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
 footer {
-    background-color: gray;
+    background-color: #d6d2d1;
+    text-align: center;
+    padding: 0.1%;
+    border: 2px solid #4589c0b6;
 }
