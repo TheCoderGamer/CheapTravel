@@ -111,9 +111,41 @@ nav a{
     font-size: 150%;
 }
 
+.iconosdearriba img{
+    width: 20px;
+    height: 20px;
+}
+
+div.iconosdearriba {
+    background-color: #d6d2d1;
+    border: 1px solid #4589c0b6;
+    width: 35%;
+    text-align: center;
+}
+
 table img {
     width: 100%;
     height: 50%;
+}
+
+.colorarticle {
+    background-color: #d6d2d1;
+    border: 2px solid #4589c0b6;
+    margin-top: 7%;
+    padding: 2%;
+}
+
+.nombreciudad {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+td {
+    padding: 2.5px;
+}
+
+td, tr {
+    margin: 50px;
 }
 
 .iconostabla img{
@@ -123,7 +155,8 @@ table img {
 }
 
 section {
-    margin-right: 30%;
+    margin-right: 27%;
+    margin-left: 1%;
 }
 
 article h2 {
