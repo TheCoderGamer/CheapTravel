@@ -1,0 +1,147 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #314e52;
+}
+body {
+    background-color: #D8E2DC;
+}
+
+.logo{
+    width: 5%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.redesSociales {
+    /* position: absolute;
+    left: 80%;
+    top: 26px; */
+    float: right;
+    /* float: none; */
+    /* float:right;
+    margin: 0 0 10px 10px; */
+
+    /* margin-top: 3%; */
+    /* border: solid black; */
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+aside p {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #d6d2d1;
+}
+
+aside a {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #d6d2d1;
+}
+
+aside form {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+    background-color: #d6d2d1;
+}
+
+.asidegrande {
+    font-size: 25px;
+}
+
+.redesSociales2 {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+
+header,nav {
+    background-color: #d6d2d1; 
+    border: 2px solid #4589c0b6;
+}
+
+
+header a{
+    font-size: 200%;
+    color: #314e52;
+    /* line-height: 200%; */
+    font-size: 200%;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+nav {
+    text-align: center;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    margin-top: 1%;
+}
+
+aside {
+    background-color: #d6d2d1;
+    border: 2px solid #4589c0b6;
+    float: right;
+    position: relative;
+    width: 25%;
+    height: 20%;
+    top: 350px;
+}
+
+nav a{
+    margin-top: 3%;
+    margin-left: 0.5%;
+    margin-right: 2%;
+    border: 1px solid black;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding: 0.2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 150%;
+}
+-
+background-color: gray;
+form {
+    font-size: 30px;
+    text-align: center;
+}
+.formulario input, .formulario textarea{
+    /* height:20px;  */
+    font-size:20pt;
+}
+
+
+
+section h1 {
+    position: absolute;
+    font-size: 3vw;
+    top: 40%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.buscador {
+    font-size: 100%;
+    float: right;
+}
+
+article h2 {
+    position: relative;
+    left: none;
+    top: none;
+}
+
+footer {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer {
+    background-color: #d6d2d1;
+    text-align: center;
+    padding: 0.1%;
+    border: 2px solid #4589c0b6;
+}

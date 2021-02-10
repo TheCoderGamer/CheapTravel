@@ -138,7 +138,7 @@ table {
 }
 
 td {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     margin: 20%;
     letter-spacing: 1.5px;
@@ -153,6 +153,19 @@ article h2 {
     position: relative;
     left: none;
     top: none;
+}
+
+.promocion {
+    background-color: #d6d2d1;
+    border: 2px solid #4589c0b6;
+    margin-bottom: 3%;
+    width: 60%;
+    height: auto;
+    padding: 1.5%;
+}
+
+.promocion input[type~="email"] {
+    width: 150px;
 }
 
 .footer {

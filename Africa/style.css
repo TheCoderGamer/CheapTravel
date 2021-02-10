@@ -116,11 +116,19 @@ nav a{
     height: 20px;
 }
 
+.iconosdearriba p {
+    margin: 5%;
+}
+
 div.iconosdearriba {
     background-color: #d6d2d1;
-    border: 1px solid #4589c0b6;
+    border: 2px solid #4589c0b6;
     width: 35%;
     text-align: center;
+    float: right;
+    position: relative;
+    top: none;
+    left: 38%;
 }
 
 table img {
@@ -146,6 +154,11 @@ td {
 
 td, tr {
     margin: 50px;
+}
+
+.iconosdearriba h2 {
+    text-align: left;
+    margin-left: 5%;
 }
 
 .iconostabla img{
