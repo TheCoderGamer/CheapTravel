@@ -13,19 +13,10 @@ body {
 }
 
 .redesSociales {
-    /* position: absolute;
-    left: 80%;
-    top: 26px; */
     float: right;
-    /* float: none; */
-    /* float:right;
-    margin: 0 0 10px 10px; */
-
-    /* margin-top: 3%; */
-    border: solid black;
     width: 17px;
     height: 17px;
-    
+    margin-right: 1%;
 }
 
 aside p {
