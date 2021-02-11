@@ -86,7 +86,8 @@ aside {
     position: relative;
     width: 25%;
     height: 20%;
-    top: 350px;
+    top: 100px;
+    margin-left: 20px;
 }
 
 nav a{
@@ -101,26 +102,42 @@ nav a{
     padding-right: 2%;
     font-size: 150%;
 }
--
-background-color: gray;
+
 form {
     font-size: 30px;
     text-align: center;
 }
 .formulario input, .formulario textarea{
     /* height:20px;  */
-    font-size:20pt;
+    font-size:30px;
+    border:2px solid black ;
+    padding: 20px;
+}
+.enviar{
+    margin-left: 670px;
 }
 
+p{
+    text-align: center;
+    font-size: 20px;
+}
 
+section{
+    margin-left: 40px;
+    margin-left: 10px;
+}
 
 section h1 {
-    position: absolute;
-    font-size: 3vw;
-    top: 40%;
-    left: 33%;
-    transform: translate(-50%, -50%);
-    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 4px 4px rgb(182, 174, 174);
+    color: rgb(88, 98, 99);
+}
+
+section h2 {
+    font-size: 40px;
+    text-shadow: 4px 4px rgb(182, 174, 174);
+    color: rgb(82, 123, 156);
 }
 
 .buscador {
@@ -135,13 +152,11 @@ article h2 {
 }
 
 footer {
+    margin-right: 26%;
     margin-left: 2%;
-    margin-right: 2%;
-}
-
-footer {
     background-color: #d6d2d1;
     text-align: center;
     padding: 0.1%;
     border: 2px solid #4589c0b6;
+    margin-top: 100px;
 }
