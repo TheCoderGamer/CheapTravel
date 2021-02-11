@@ -28,25 +28,6 @@ body {
     margin-right: 10px;
 }
 
-aside p {
-    margin-left: 6%;
-    margin-right: 6%;
-    background-color: #d6d2d1;
-}
-
-aside a {
-    margin-left: 6%;
-    margin-right: 6%;
-    background-color: #d6d2d1;
-}
-
-aside form {
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 6%;
-    background-color: #d6d2d1;
-}
-
 .asidegrande {
     font-size: 25px;
 }
@@ -78,18 +59,6 @@ nav {
     padding-bottom: 0.2%;
     margin-top: 1%;
 }
-
-aside {
-    background-color: #d6d2d1;
-    border: 2px solid #4589c0b6;
-    float: right;
-    position: relative;
-    width: 25%;
-    height: 20%;
-    top: 100px;
-    margin-left: 20px;
-}
-
 nav a{
     margin-top: 3%;
     margin-left: 0.5%;
@@ -117,9 +86,11 @@ form {
     margin-left: 670px;
 }
 
-p{
+section p{
     text-align: center;
     font-size: 20px;
+    margin-right: 500px;
+    margin-left: 10px;
 }
 
 section{
@@ -160,3 +131,44 @@ footer {
     border: 2px solid #4589c0b6;
     margin-top: 100px;
 }
+
+/* --------ASIDE---------- */
+aside {
+    background-color: #d6d2d1;
+    border: 2px solid #4589c0b6;
+    float: right;
+    position: relative;
+    width: 25%;
+    height: 20%;
+    top: 350px;
+}
+
+aside p {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #d6d2d1;
+    text-align: left;
+}
+
+aside a {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #d6d2d1;
+}
+
+aside form {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+    background-color: #d6d2d1;
+}
+
+.asidegrande {
+    font-size: 25px;
+}
+
+.redesSociales2 {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+/* ------------- */
