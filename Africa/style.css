@@ -111,6 +111,15 @@ nav a{
     font-size: 150%;
 }
 
+.titulos img {
+    background-color: #d6d2d1;
+    border: 2px solid #4589c0b6;
+    border-radius: 25%;
+    width: 30px;
+    height: 30px;
+    padding: 0.5%;
+}
+
 .iconosdearriba img{
     width: 20px;
     height: 20px;
@@ -118,6 +127,11 @@ nav a{
 
 .iconosdearriba p {
     margin: 5%;
+}
+
+.iconosdearriba{
+    position: relative;
+    top: 33px;
 }
 
 div.iconosdearriba {
@@ -139,7 +153,7 @@ table img {
 .colorarticle {
     background-color: #d6d2d1;
     border: 2px solid #4589c0b6;
-    margin-top: 7%;
+    margin-top: 33px;
     padding: 2%;
 }
 
