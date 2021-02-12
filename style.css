@@ -3,11 +3,11 @@
     color: #314e52;
 }
 body {
-    background-color: #D8E2DC;
+    background-color: #b4f1ff;
 }
 
 .logo{
-    width: 5%;
+    width: 50px;
     height: auto;
     vertical-align: middle;
 }
@@ -65,6 +65,10 @@ header a{
     font-size: 200%;
     margin-left: 10px;
     vertical-align: middle;
+}
+
+ul li {
+    display: inline;
 }
 
 nav {
