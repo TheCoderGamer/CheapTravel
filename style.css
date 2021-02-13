@@ -3,7 +3,7 @@
     color: #314e52;
 }
 body {
-    background-color: #b4f1ff;
+    background-color: #e0e0e0;
 }
 
 .logo{
@@ -14,10 +14,18 @@ body {
 
 .redesSociales {
     float: right;
-    width: 17px;
-    height: 17px;
+    width: 30px;
+    height: 30px;
     margin-right: 1%;
+    margin-top: 10px;
 }
+
+.contenido {
+    background-color: #85c9e4;
+    margin: 20px;
+    border: solid black 2px;
+}
+
 
 aside p {
     margin-left: 6%;
@@ -43,13 +51,20 @@ aside form {
 }
 
 .redesSociales2 {
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 60px;
+    height: 60px;
+}
+
+aside form input {
+    font-size: 30px;
+    border: solid black 1px;
 }
 
 .buscador {
     font-size: 100%;
     float: right;
+    margin-top: 4px;
+    margin-right: 4px;
 }
 
 header,nav {

@@ -81,7 +81,6 @@ form {
     text-align: center;
 }
 .formulario input, .formulario textarea{
-    /* height:20px;  */
     font-size:30px;
     border:2px solid black ;
     padding: 20px;
