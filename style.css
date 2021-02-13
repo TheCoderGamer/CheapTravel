@@ -3,7 +3,7 @@
     color: #314e52;
 }
 body {
-    background-color: #e0e0e0;
+    background-color: #b4f1ff;
 }
 
 .logo{
@@ -20,11 +20,6 @@ body {
     margin-top: 10px;
 }
 
-.contenido {
-    background-color: #85c9e4;
-    margin: 20px;
-    border: solid black 2px;
-}
 
 
 aside p {
@@ -51,8 +46,8 @@ aside form {
 }
 
 .redesSociales2 {
-    width: 60px;
-    height: 60px;
+    width: 25px;
+    height: 25px;
 }
 
 aside form input {
@@ -137,6 +132,11 @@ section h1 {
     text-shadow: 4px 4px black;
 }
 
+section {
+    background-color: #d6d2d1;
+    margin: 20px;
+    border: solid black 2px;
+}
 
 
 table {

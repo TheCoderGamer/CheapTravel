@@ -20,7 +20,7 @@ body {
     /* float: none; */
     /* float:right;
     margin: 0 0 10px 10px; */
-
+    
     /* margin-top: 3%; */
     /* border: solid black; */
     width: 17px;
@@ -32,17 +32,12 @@ body {
     font-size: 25px;
 }
 
-.redesSociales2 {
-    width: 1.5vw;
-    height: 1.5vw;
-}
 
 
 header,nav {
     background-color: #d6d2d1; 
     border: 2px solid #4589c0b6;
 }
-
 
 header a{
     font-size: 200%;
@@ -171,7 +166,7 @@ aside form {
 }
 
 .redesSociales2 {
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 25px;
+    height: 25px;
 }
 /* ------------- */
