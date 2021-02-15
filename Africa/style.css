@@ -16,7 +16,8 @@ body {
     float: right;
     width: 17px;
     height: 17px;
-    margin-right: 1%;
+    margin-right: 5px;
+    margin-top: 1px;
 }
 
 aside p {
@@ -133,12 +134,13 @@ nav a{
 div.iconosdearriba {
     background-color: #d6d2d1;
     border: 2px solid #4589c0b6;
-    width: 35%;
+    width: 34.7%;
+    height: 210px;
     text-align: center;
     float: right;
     position: relative;
     top: none;
-    left: 37.8%;
+    left: 37.5%;
 }
 
 table img {
