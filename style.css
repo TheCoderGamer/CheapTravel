@@ -139,31 +139,24 @@ section h1 {
     text-shadow: 4px 4px black;
 }
 
-article h2 {
-    position: relative;
-    left: none;
-    top: none;
-}
-
 table {
-    position: relative;
-    top: none;
     margin-top: 4%;
     margin-left: 44px;
-    height: 64%;
-    width: 64%;
+    height: 65%;
+    width: 70%;
 }
 
 td {
     font-size: 17px;
     text-align: center;
-    margin: 20%;
     letter-spacing: 1.5px;
     word-spacing: 2px;
+    width: 20%;
 }
 
 table,td,tr {
     border-spacing: 15px;
+    border: solid black 10px;
 }
 
 .promocion {
