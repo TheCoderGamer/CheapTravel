@@ -95,7 +95,17 @@ aside form {
     margin-left: 6%;
     margin-right: 6%;
     margin-bottom: 6%;
+}
 
+aside form input[type~="email"],input[type~="text"] {
+    width: 90%;
+    font-size: 30px;
+    border: solid black 1px;
+}
+aside form input {
+    width: 100px;
+    font-size: 30px;
+    border: solid black 1px;
 }
 
 .asidegrande {
@@ -106,7 +116,7 @@ aside form {
     width: 25px;
     height: 25px;
 }
-/* ----------- */
+/* --------------- */
 
 section {
     margin-right: 27%;

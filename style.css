@@ -77,6 +77,15 @@ aside {
     height: 20%;
     top: 150px;
 }
+@media screen and (max-width: 800px) {
+    aside{
+        float: none;
+        position: none;
+        width: 100%;
+        top: inherit;
+        margin-top: 1%;
+    }
+}
 
 aside p {
     margin-left: 6%;
@@ -94,6 +103,17 @@ aside form {
     margin-bottom: 6%;
 }
 
+aside form input[type~="email"],input[type~="text"] {
+    width: 90%;
+    font-size: 30px;
+    border: solid black 1px;
+}
+aside form input {
+    width: 100px;
+    font-size: 30px;
+    border: solid black 1px;
+}
+
 .asidegrande {
     font-size: 25px;
 }
@@ -101,6 +121,12 @@ aside form {
 .redesSociales2 {
     width: 25px;
     height: 25px;
+}
+@media screen and (max-width: 800px) {
+    .redesSociales2 {
+        width: 20%;
+        height: 20%;
+    }
 }
 
 aside form input {
@@ -116,10 +142,22 @@ aside form input {
     border: solid black 2px;
     box-shadow: 10px 10px gray;
 }
+@media screen and (max-width: 800px) {
+    .fotoinicial{
+        width: 98%;
+        box-shadow: 1px 1px gray;
+    }
+}
 
 .fotoinicio {
     position: relative;
     margin-left: 50px;
+}
+@media screen and (max-width: 800px) {
+    .fotoinicio{
+        position: inherit;
+        margin-left: 1%;
+    }
 }
 
 
@@ -127,6 +165,11 @@ section {
     background-color: #d6d2d1;
     margin: 20px;
     border: solid black 2px;
+}
+@media screen and (max-width: 800px) {
+    section{
+        margin: 1%;
+    }
 }
 
 section h1 {
@@ -138,6 +181,17 @@ section h1 {
     color: white;
     text-shadow: 4px 4px black;
 }
+@media screen and (max-width: 800px) {
+    section h1 {
+        position: absolute;
+        font-size: 5vw;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 4px 4px black;
+    }
+}
 
 table {
     margin-top: 4%;
@@ -145,6 +199,12 @@ table {
     height: 65%;
     width: 70%;
     border: solid #4589c0b6 2px;
+}
+@media screen and (max-width: 800px) {
+    table{
+        margin-left: 1%;
+        width:98%;
+    }
 }
 
 td {
@@ -169,13 +229,19 @@ table img {
     border: 2px solid #4589c0b6;
     margin-bottom: 3%;
     margin-left: 40px;
-    width: 60%;
+    width: 90%;
     height: auto;
     padding: 1.5%;
 }
 
 .promocion input[type~="email"] {
     width: 150px;
+}
+@media screen and (max-width: 800px) {
+    .promocion{
+        margin-left: inherit;
+        width: 94%;
+    }
 }
 
 /* ------------FOOTER------------- */
