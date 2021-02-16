@@ -6,6 +6,7 @@ body {
     background-color: #b4f1ff;
 }
 
+/* ------------HEADER---------------- */
 .logo{
     width: 50px;
     height: auto;
@@ -20,7 +21,61 @@ body {
     margin-top: 10px;
 }
 
+.buscador {
+    font-size: 100%;
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+}
 
+header,nav {
+    background-color: #d6d2d1; 
+    border: 2px solid #4589c0b6;
+}
+
+header a{
+    font-size: 200%;
+    color: #314e52;
+    /* line-height: 200%; */
+    font-size: 200%;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+nav {
+    text-align: center;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    margin-top: 1%;
+}
+
+
+nav a{
+    margin-top: 3%;
+    margin-left: 0.5%;
+    margin-right: 2%;
+    border: 1px solid black;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding: 0.2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 150%;
+}
+ul li {
+    display: inline;
+}
+/* ----------- */
+/* -----------ASIDE----------- */
+aside {
+    background-color: #d6d2d1;
+    border: 2px solid #4589c0b6;
+    float: right;
+    position: relative;
+    width: 25%;
+    height: 20%;
+    top: 150px;
+}
 
 aside p {
     margin-left: 6%;
@@ -54,62 +109,7 @@ aside form input {
     font-size: 30px;
     border: solid black 1px;
 }
-
-.buscador {
-    font-size: 100%;
-    float: right;
-    margin-top: 4px;
-    margin-right: 4px;
-}
-
-header,nav {
-    background-color: #d6d2d1; 
-    border: 2px solid #4589c0b6;
-}
-
-
-header a{
-    font-size: 200%;
-    color: #314e52;
-    /* line-height: 200%; */
-    font-size: 200%;
-    margin-left: 10px;
-    vertical-align: middle;
-}
-
-ul li {
-    display: inline;
-}
-
-nav {
-    text-align: center;
-    padding-top: 0.2%;
-    padding-bottom: 0.2%;
-    margin-top: 1%;
-}
-
-aside {
-    background-color: #d6d2d1;
-    border: 2px solid #4589c0b6;
-    float: right;
-    position: relative;
-    width: 25%;
-    height: 20%;
-    top: 350px;
-}
-
-nav a{
-    margin-top: 3%;
-    margin-left: 0.5%;
-    margin-right: 2%;
-    border: 1px solid black;
-    border-top: transparent;
-    border-bottom: transparent;
-    padding: 0.2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    font-size: 150%;
-}
+/* ----------------- */
 
 .fotoinicial {
     width: 65%;
@@ -122,6 +122,13 @@ nav a{
     margin-left: 64px;
 }
 
+
+section {
+    background-color: #d6d2d1;
+    margin: 20px;
+    border: solid black 2px;
+}
+
 section h1 {
     position: absolute;
     font-size: 3vw;
@@ -132,12 +139,11 @@ section h1 {
     text-shadow: 4px 4px black;
 }
 
-section {
-    background-color: #d6d2d1;
-    margin: 20px;
-    border: solid black 2px;
+article h2 {
+    position: relative;
+    left: none;
+    top: none;
 }
-
 
 table {
     position: relative;
@@ -160,12 +166,6 @@ table,td,tr {
     border-spacing: 15px;
 }
 
-article h2 {
-    position: relative;
-    left: none;
-    top: none;
-}
-
 .promocion {
     background-color: #d6d2d1;
     border: 2px solid #4589c0b6;
@@ -179,6 +179,7 @@ article h2 {
     width: 150px;
 }
 
+/* ------------FOOTER------------- */
 .footer {
     margin-left: 2%;
     margin-right: 2%;
@@ -190,3 +191,4 @@ footer {
     padding: 0.1%;
     border: 2px solid #4589c0b6;
 }
+/* ----------- */

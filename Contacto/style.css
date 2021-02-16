@@ -5,34 +5,12 @@
 body {
     background-color: #b4f1ff;
 }
-
+/* ---------------HEADER----------------- */
 .logo{
     width: 50px;
     height: auto;
     vertical-align: middle;
 }
-
-.redesSociales {
-    /* position: absolute;
-    left: 80%;
-    top: 26px; */
-    float: right;
-    /* float: none; */
-    /* float:right;
-    margin: 0 0 10px 10px; */
-    
-    /* margin-top: 3%; */
-    /* border: solid black; */
-    width: 17px;
-    height: 17px;
-    margin-right: 10px;
-}
-
-.asidegrande {
-    font-size: 25px;
-}
-
-
 
 header,nav {
     background-color: #d6d2d1; 
@@ -48,8 +26,19 @@ header a{
     vertical-align: middle;
 }
 
-ul li {
-    display: inline;
+.redesSociales {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-right: 1%;
+    margin-top: 10px;
+}
+
+.buscador {
+    font-size: 100%;
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
 }
 
 nav {
@@ -71,7 +60,56 @@ nav a{
     font-size: 150%;
 }
 
-form {
+ul li {
+    display: inline;
+}
+/* ------------- */
+/* -------------ASIDE------------- */
+aside {
+    background-color: #d6d2d1;
+    border: 2px solid #4589c0b6;
+    float: right;
+    position: relative;
+    width: 25%;
+    height: 20%;
+    top: 150px;
+}
+
+aside p {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #d6d2d1;
+}
+
+aside a {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #d6d2d1;
+}
+
+aside form {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+    background-color: #d6d2d1;
+}
+
+.asidegrande {
+    font-size: 25px;
+}
+
+.redesSociales2 {
+    width: 25px;
+    height: 25px;
+}
+
+aside form input {
+    font-size: 30px;
+    border: solid black 1px;
+}
+/* --------------- */
+/* ------------FORMULARIO---------- */
+form.formulario{
     font-size: 30px;
     text-align: center;
 }
@@ -83,6 +121,7 @@ form {
 .enviar{
     margin-left: 670px;
 }
+/* ------------ */
 
 section p{
     text-align: center;
@@ -109,15 +148,17 @@ section h2 {
     color: rgb(82, 123, 156);
 }
 
-.buscador {
-    font-size: 100%;
-    float: right;
-}
 
 article h2 {
     position: relative;
     left: none;
     top: none;
+}
+
+/* ------------FOOTER------------- */
+.footer {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 footer {
@@ -129,44 +170,4 @@ footer {
     border: 2px solid #4589c0b6;
     margin-top: 100px;
 }
-
-/* --------ASIDE---------- */
-aside {
-    background-color: #d6d2d1;
-    border: 2px solid #4589c0b6;
-    float: right;
-    position: relative;
-    width: 25%;
-    height: 20%;
-    top: 350px;
-}
-
-aside p {
-    margin-left: 6%;
-    margin-right: 6%;
-    background-color: #d6d2d1;
-    text-align: left;
-}
-
-aside a {
-    margin-left: 6%;
-    margin-right: 6%;
-    background-color: #d6d2d1;
-}
-
-aside form {
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 6%;
-    background-color: #d6d2d1;
-}
-
-.asidegrande {
-    font-size: 25px;
-}
-
-.redesSociales2 {
-    width: 25px;
-    height: 25px;
-}
-/* ------------- */
+/* ------------ */
