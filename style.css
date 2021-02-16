@@ -28,7 +28,7 @@ body {
     margin-right: 4px;
 }
 
-header,nav {
+header {
     background-color: #d6d2d1; 
     border: 2px solid #4589c0b6;
 }
@@ -42,13 +42,14 @@ header a{
     vertical-align: middle;
 }
 
-nav {
+nav{
+    background-color: #d8ec90; 
+    border: 2px solid #4589c0b6;
     text-align: center;
     padding-top: 0.2%;
     padding-bottom: 0.2%;
     margin-top: 1%;
 }
-
 
 nav a{
     margin-top: 3%;
@@ -68,7 +69,7 @@ ul li {
 /* ----------- */
 /* -----------ASIDE----------- */
 aside {
-    background-color: #d6d2d1;
+    background-color: #d8ec90;
     border: 2px solid #4589c0b6;
     float: right;
     position: relative;
@@ -80,20 +81,17 @@ aside {
 aside p {
     margin-left: 6%;
     margin-right: 6%;
-    background-color: #d6d2d1;
 }
 
 aside a {
     margin-left: 6%;
     margin-right: 6%;
-    background-color: #d6d2d1;
 }
 
 aside form {
     margin-left: 6%;
     margin-right: 6%;
     margin-bottom: 6%;
-    background-color: #d6d2d1;
 }
 
 .asidegrande {
@@ -112,14 +110,16 @@ aside form input {
 /* ----------------- */
 
 .fotoinicial {
-    width: 65%;
+    width: 70%;
     height: 30%;
     margin-top: 3%;
+    border: solid black 2px;
+    box-shadow: 10px 10px gray;
 }
 
 .fotoinicio {
     position: relative;
-    margin-left: 64px;
+    margin-left: 50px;
 }
 
 
@@ -144,6 +144,7 @@ table {
     margin-left: 44px;
     height: 65%;
     width: 70%;
+    border: solid #4589c0b6 2px;
 }
 
 td {
@@ -155,15 +156,19 @@ td {
 }
 
 table,td,tr {
-    border-spacing: 15px;
-    border: solid black 10px;
+    border-spacing: 10px;
+}
+
+table img {
+    border: solid black 2px;
+    box-shadow: 4px 4px gray;
 }
 
 .promocion {
     background-color: #d6d2d1;
     border: 2px solid #4589c0b6;
     margin-bottom: 3%;
-    margin-left: 10px;
+    margin-left: 40px;
     width: 60%;
     height: auto;
     padding: 1.5%;

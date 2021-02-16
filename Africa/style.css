@@ -28,7 +28,7 @@ body {
     margin-right: 4px;
 }
 
-header,nav {
+header {
     background-color: #d6d2d1; 
     border: 2px solid #4589c0b6;
 }
@@ -47,6 +47,8 @@ nav {
     padding-top: 0.2%;
     padding-bottom: 0.2%;
     margin-top: 1%;
+    background-color: #d8ec90; 
+    border: 2px solid #4589c0b6;
 }
 
 ul li {
@@ -68,7 +70,7 @@ nav a{
 /* ----------- */
 /* -----------ASIDE----------- */
 aside {
-    background-color: #d6d2d1;
+    background-color: #d8ec90; 
     border: 2px solid #4589c0b6;
     float: right;
     position: relative;
@@ -80,20 +82,20 @@ aside {
 aside p {
     margin-left: 6%;
     margin-right: 6%;
-    background-color: #d6d2d1;
+
 }
 
 aside a {
     margin-left: 6%;
     margin-right: 6%;
-    background-color: #d6d2d1;
+
 }
 
 aside form {
     margin-left: 6%;
     margin-right: 6%;
     margin-bottom: 6%;
-    background-color: #d6d2d1;
+
 }
 
 .asidegrande {
@@ -140,7 +142,7 @@ table img {
 div.iconosdearriba {
     position: relative;
     top: 33px;
-    background-color: #d6d2d1;
+    background-color: #d8ec90; 
     border: 2px solid #4589c0b6;
     width: 34.7%;
     height: 210px;
