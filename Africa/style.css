@@ -15,10 +15,10 @@ body {
 
 .redesSociales {
     float: right;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 1%;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .buscador {
@@ -99,12 +99,12 @@ aside form {
 
 aside form input[type~="email"],input[type~="text"] {
     width: 90%;
-    font-size: 30px;
+    font-size: 20px;
     border: solid black 1px;
 }
 aside form input {
     width: 100px;
-    font-size: 30px;
+    font-size: 20px;
     border: solid black 1px;
 }
 
@@ -146,7 +146,7 @@ h2+p {
 
 table img {
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 div.iconosdearriba {
@@ -180,7 +180,7 @@ td {
 }
 
 td, tr {
-    margin: 50px;
+    margin: 40px;
 }
 
 .colorarticle {
