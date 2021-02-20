@@ -15,10 +15,10 @@ body {
 
 .redesSociales {
     float: right;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 1%;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .buscador {
@@ -67,9 +67,10 @@ ul li {
     display: inline;
 }
 /* ----------- */
-/* -----------ASIDE----------- */
+/* -------------ASIDE------------- */
+
 aside {
-    background-color: #d8ec90;
+    background-color: #d8ec90; 
     border: 2px solid #4589c0b6;
     float: right;
     position: relative;
@@ -77,6 +78,7 @@ aside {
     height: 20%;
     top: 150px;
 }
+
 @media screen and (max-width: 800px) {
     aside{
         float: none;
@@ -97,23 +99,6 @@ aside a {
     margin-right: 6%;
 }
 
-aside form {
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 6%;
-}
-
-aside form input[type~="email"],input[type~="text"] {
-    width: 90%;
-    font-size: 30px;
-    border: solid black 1px;
-}
-aside form input {
-    width: 100px;
-    font-size: 30px;
-    border: solid black 1px;
-}
-
 .asidegrande {
     font-size: 25px;
 }
@@ -124,16 +109,28 @@ aside form input {
 }
 @media screen and (max-width: 800px) {
     .redesSociales2 {
-        width: 20%;
-        height: 20%;
+        width: 10%;
+        height: 10%;
     }
 }
 
-aside form input {
-    font-size: 30px;
+aside form {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+}
+
+aside form input[type~="email"],input[type~="text"] {
+    width: 90%;
+    font-size: 20px;
     border: solid black 1px;
 }
-/* ----------------- */
+aside form input {
+    width: 100px;
+    font-size: 20px;
+    border: solid black 1px;
+}
+/* --------------- */
 
 .fotoinicial {
     width: 70%;
@@ -198,7 +195,7 @@ table {
     margin-left: 44px;
     height: 65%;
     width: 70%;
-    border: solid #4589c0b6 2px;
+    /* border: solid #4589c0b6 2px; */
 }
 @media screen and (max-width: 800px) {
     table{

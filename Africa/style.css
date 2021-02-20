@@ -79,6 +79,16 @@ aside {
     top: 350px;
 }
 
+@media screen and (max-width: 800px) {
+    aside{
+        float: none;
+        position: none;
+        width: 100%;
+        top: inherit;
+        margin-top: 1%;
+    }
+}
+
 aside p {
     margin-left: 6%;
     margin-right: 6%;
@@ -116,11 +126,24 @@ aside form input {
     width: 25px;
     height: 25px;
 }
+
+@media screen and (max-width: 800px) {
+    .redesSociales2 {
+        width: 10%;
+        height: 10%;
+    }
+}
 /* --------------- */
 
 section {
     margin-right: 27%;
     margin-left: 1%;
+}
+@media screen and (max-width: 800px) {
+    section{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 article h2 {
@@ -142,6 +165,7 @@ h2+p {
     height: 30px;
     padding: 0.5%;
     margin-left: 21%;
+    margin-top: 4%;
 }
 
 table img {
@@ -162,12 +186,28 @@ div.iconosdearriba {
     top: none;
     left: 37.5%;
 }
+@media screen and (max-width: 800px) {
+    div.iconosdearriba {
+        position: relative;
+        top: inherit;
+        background-color: #d8ec90; 
+        border: 2px solid #4589c0b6;
+        width: 100%;
+        height: 250px;
+        text-align: center;
+        float: none;
+        position: inherit;
+        top: none;
+        left: inherit;
+    }
+}
+
 .iconosdearriba img{
     width: 20px;
     height: 20px;
 }
 .iconosdearriba p {
-    margin: 5%;
+    margin: 4%;
 }
 
 .iconostabla img{
@@ -177,6 +217,13 @@ div.iconosdearriba {
 
 td {
     padding: 2.5px;
+    text-align: center;
+}
+
+td a img {
+    /* border: solid snow 1px; */
+    background-color: #e2e1e0;
+    padding: 10px;
 }
 
 td, tr {
