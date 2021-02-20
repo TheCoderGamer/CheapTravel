@@ -77,6 +77,7 @@ aside {
     width: 25%;
     height: 20%;
     top: 150px;
+    margin-right: 0.5%;
 }
 
 @media screen and (max-width: 800px) {
@@ -160,7 +161,7 @@ aside form input {
 
 section {
     background-color: #d6d2d1;
-    margin: 20px;
+    margin-top: 15px;
     border: solid black 2px;
 }
 @media screen and (max-width: 800px) {

@@ -76,7 +76,7 @@ aside {
     position: relative;
     width: 25%;
     height: 20%;
-    top: 350px;
+    top: 381.5px;
 }
 
 @media screen and (max-width: 800px) {
@@ -182,8 +182,6 @@ div.iconosdearriba {
     height: 210px;
     text-align: center;
     float: right;
-    position: relative;
-    top: none;
     left: 37.5%;
 }
 @media screen and (max-width: 800px) {
