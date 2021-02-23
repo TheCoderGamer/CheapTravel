@@ -5,14 +5,40 @@
 body {
     background-color: #b4f1ff;
 }
-/* ---------------HEADER----------------- */
+/* ------------HEADER---------------- */
 .logo{
     width: 50px;
     height: auto;
     vertical-align: middle;
 }
 
-header{
+.redesSociales {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 1%;
+    margin-top: 5px;
+}
+@media screen and (max-width: 800px) {
+    .redesSociales{
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.buscador {
+    font-size: 100%;
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+@media screen and (max-width: 800px) {
+    .buscador {
+        font-size: 80%;
+    }
+}
+
+header {
     background-color: #d6d2d1; 
     border: 2px solid #4589c0b6;
 }
@@ -25,30 +51,22 @@ header a{
     margin-left: 10px;
     vertical-align: middle;
 }
-
-.redesSociales {
-    float: right;
-    width: 20px;
-    height: 20px;
-    margin-right: 1%;
-    margin-top: 5px;
+@media screen and (max-width: 800px) {
+    header a{
+        font-size: 140%;
+        margin-left: 1px;
+    }
 }
 
-.buscador {
-    font-size: 100%;
-    float: right;
-    margin-top: 4px;
-    margin-right: 4px;
-}
-
-nav {
+nav{
+    background-color: #d8ec90; 
+    border: 2px solid #4589c0b6;
     text-align: center;
     padding-top: 0.2%;
     padding-bottom: 0.2%;
     margin-top: 1%;
-    background-color: #d8ec90;
-    border: 2px solid #4589c0b6;
 }
+
 nav a{
     margin-top: 3%;
     margin-left: 0.5%;
@@ -61,11 +79,10 @@ nav a{
     padding-right: 2%;
     font-size: 150%;
 }
-
 ul li {
     display: inline;
 }
-/* ------------- */
+/* ----------- */
 /* -------------ASIDE------------- */
 
 aside {

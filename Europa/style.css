@@ -20,12 +20,23 @@ body {
     margin-right: 1%;
     margin-top: 5px;
 }
+@media screen and (max-width: 800px) {
+    .redesSociales{
+        width: 10px;
+        height: 10px;
+    }
+}
 
 .buscador {
     font-size: 100%;
     float: right;
     margin-top: 4px;
     margin-right: 4px;
+}
+@media screen and (max-width: 800px) {
+    .buscador {
+        font-size: 80%;
+    }
 }
 
 header {
@@ -41,18 +52,20 @@ header a{
     margin-left: 10px;
     vertical-align: middle;
 }
+@media screen and (max-width: 800px) {
+    header a{
+        font-size: 140%;
+        margin-left: 1px;
+    }
+}
 
-nav {
+nav{
+    background-color: #d8ec90; 
+    border: 2px solid #4589c0b6;
     text-align: center;
     padding-top: 0.2%;
     padding-bottom: 0.2%;
     margin-top: 1%;
-    background-color: #d8ec90; 
-    border: 2px solid #4589c0b6;
-}
-
-ul li {
-    display: inline;
 }
 
 nav a{
@@ -66,6 +79,9 @@ nav a{
     padding-left: 2%;
     padding-right: 2%;
     font-size: 150%;
+}
+ul li {
+    display: inline;
 }
 /* ----------- */
 /* -----------ASIDE----------- */
