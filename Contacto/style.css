@@ -39,7 +39,7 @@ body {
 }
 
 header {
-    background-color: #d6d2d1; 
+    background-color: #d8ec90; 
     border: 2px solid #4589c0b6;
 }
 
@@ -149,22 +149,27 @@ aside form input {
 /* --------------- */
 /* ------------FORMULARIO---------- */
 form.formulario{
-    font-size: 30px;
-    text-align: center;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 25%;
 }
 #enviar{
-    text-align:left;
-    font-size:30px;
+    font-size:25px;
     border:2px solid black ;
-    padding: 20px;
-    width: 120px;
+    background-color: rgb(156, 252, 164);
+    padding: 10px;
+    width: 90px;
     margin-bottom: 1%;
+    text-align: center;
+    border-radius: 70px;
 }
 .formulario input[type~="email"],.formulario input[type~="text"],.formulario input[type~="number"],.formulario input[type~="date"], .formulario textarea{
-    font-size:30px;
+    font-size:20px;
     border:2px solid black ;
-    padding: 20px;
-    width: 80%;
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 4%;
+    border-radius: 30px;
 }
 /* ------------ */
 
